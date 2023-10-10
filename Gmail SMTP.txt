@@ -1,0 +1,12 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465/587
+MAIL_USERNAME=<Enter your Gmail address>
+MAIL_PASSWORD=<Enter your Gmail password>
+
+
+======================================================
+
+Mail Laravel 
+
+ Mail::to('alamin@gmail.com')->send(new ContactMassege());
